@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeLiberty</title>
+    <link rel="stylesheet" href="hamburgers.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+
+    <link rel="icon" href="../favicon/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="hamburger hamburger--3dx">
+      <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+      </div>
+    </div>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="../images/logo_long.png" alt="logo"
+        /></a>
+      </div>
+      <nav id="navigation">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Become a courier!</a></li>
+          <li><a href="services.html">For restaurants</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="banner">
+      🚀 Fast delivery right to you without extra fees! (background image)
+    </div>
+    <main>
+      <div class="container">
+        <div class="content">
+          <h1>About Our App</h1>
+        </div>
+        <div class="image-section">
+          <img
+            src="https://picsum.photos/600/300/"
+            alt="Food delivery service"
+          />
+          <p>
+            Candy pudding chocolate sweet shortbread cotton candy chupa chups
+            croissant. Icing dessert powder lemon drops halvah cake candy canes.
+            Lemon drops jelly-o cake marshmallow caramels gummi bears pastry
+            candy canes. Cupcake cupcake fruitcake marzipan jujubes liquorice
+            dragée topping. Marzipan soufflé icing cake cheesecake. Topping
+            pastry liquorice carrot cake icing jelly dragée cake brownie. Tart
+            jujubes soufflé caramels croissant ice cream macaroon biscuit.
+            Dessert toffee cake dragée jujubes ice cream. Candy canes cupcake
+            caramels gummies jelly-o tiramisu sugar plum sweet roll lollipop.
+            Icing dessert bonbon bonbon caramels lollipop tiramisu candy.
+          </p>
+        </div>
+        <h2>Our features</h2>
+        <div class="features">
+          <div class="feature">
+            <img src="https://picsum.photos/300" alt="feature" />
+            <h3>⚡ Instant Delivery</h3>
+            <p>Get your food in just 20 minutes.</p>
+          </div>
+          <div class="feature">
+            <img src="https://picsum.photos/300" alt="feature" />
+            <h3>🍕 Huge Selection</h3>
+            <p>Hundreds of restaurants to choose from.</p>
+          </div>
+          <div class="feature">
+            <img src="https://picsum.photos/300" alt="feature" />
+            <h3>💳 Easy Payment</h3>
+            <p>Supports cards, Apple Pay, and Google Pay.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="download-section">
+      <img
+        src="https://picsum.photos/300/600/?food,delivery"
+        alt="Food Delivery App"
+      />
+      <div class="download-buttons">
+        <h2>Get Our App</h2>
+        <a href="#" class="btn app-store">📱 Download on App Store</a>
+        <a href="#" class="btn google-play">📱 Get it on Google Play</a>
+      </div>
+    </div>
+    <div>
+      <h2>Customer Reviews</h2>
+      <div class="reviews">
+        <div class="review">
+          <img src="https://picsum.photos/100" alt="user" />
+          <h3>⭐️⭐️⭐️⭐️⭐️ John D.</h3>
+          <p>Fastest delivery ever! Love this app.</p>
+        </div>
+        <div class="review">
+          <img src="https://picsum.photos/100" alt="user" />
+          <h3>⭐️⭐️⭐️⭐️⭐️ Emily R.</h3>
+          <p>Great variety of restaurants. Highly recommend!</p>
+        </div>
+        <div class="review">
+          <img src="https://picsum.photos/100" alt="user" />
+          <h3>⭐️⭐️⭐️⭐️⭐️ Mark S.</h3>
+          <p>Very convenient and easy to use.</p>
+        </div>
+      </div>
+    </div>
+    <div class="subscribe">
+      <h2>Subscribe for Updates</h2>
+      <p>Stay updated with our latest offers and promotions.</p>
+      <input type="email" placeholder="Enter your email" />
+      <button>Subscribe</button>
+    </div>
+    <footer>
+      <p>&copy; 2025 DeLiberty. All rights reserved.</p>
+      <p>
+        <a href="https://validator.w3.org/">HTML Validator</a> |
+        <a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
+      </p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const burger = document.querySelector(".hamburger");
+        const menu = document.querySelector(".menu");
+
+        burger.addEventListener("click", function () {
+          burger.classList.toggle("is-active");
+          menu.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
