@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeLiberty</title>
+    <link rel="stylesheet" href="css/hamburgers.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contacts.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="images/logo_long.png" alt="logo"
+        /></a>
+      </div>
+      <nav id="navigation">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="couriers.html">Become a courier!</a></li>
+          <li><a href="restaurants.html">For restaurants</a></li>
+          <li><a href="contacts.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger hamburger--3dx">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+    </header>
+    <main class="contact-page">
+      <section class="contact-info">
+        <h1>Contact Us</h1>
+        <p class="contact-intro">
+          Have questions, ideas, or need help?<br />
+          We're here to support you — whether you're a courier, a restaurant
+          partner, or a curious customer.
+        </p>
+
+        <div class="contact-methods">
+          <div class="contact-method">
+            <span class="icon">📧</span>
+            <h3>Email</h3>
+            <p>support@deliberty.com</p>
+          </div>
+          <div class="contact-method">
+            <span class="icon">📱</span>
+            <h3>Phone</h3>
+            <p>+1 (123) 456-7890</p>
+          </div>
+          <div class="contact-method">
+            <span class="icon">🕒</span>
+            <h3>Working Hours</h3>
+            <p>Mon–Fri, 9 AM – 6 PM (PST)</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <h2>💬 Send Us a Message</h2>
+        <p class="contact-form-intro">
+          Use the form below and we'll get back to you within 24 hours.
+        </p>
+        <div class="contact-form-container">
+          <div class="support-image">
+            <img
+              src="https://images.pexels.com/photos/8867439/pexels-photo-8867439.jpeg?auto=compress&cs=tinysrgb&h=350"
+              alt="Our support team is ready to help you"
+              loading="lazy"
+            />
+            <p class="caption">Our support team is ready to help you</p>
+          </div>
+
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="How can we help you?"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 DeLiberty. All rights reserved.</p>
+      <p>
+        <a href="https://validator.w3.org/">HTML Validator</a> |
+        <a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
